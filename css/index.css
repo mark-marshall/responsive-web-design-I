@@ -288,17 +288,25 @@ button {
     flex-direction: column;
 }
 
-.features, .about, .services, .product, .vision {
+.content-block {
     width: 100%;
     margin: 18px 0;
 }
 
-.features {
+.content-block:first-child {
     margin-top: 50px;
 }
 
 .middle-img {
     margin: 20px 0 15px 0;
+}
+
+.contact-info {
+    margin-top: 15px;
+}
+
+footer p{
+    font-size: 11pt;
 }
 
 }
