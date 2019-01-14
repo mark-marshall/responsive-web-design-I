@@ -127,7 +127,7 @@ button {
 
 .features, .about {
 	width: 50%;
-	margin: 40px 0 30px ;
+	margin: 40px 0 30px 0;
 	padding: 10px;
 }
 
@@ -263,7 +263,7 @@ nav {
 nav a {
     height: 60px;
     border-top: 1px solid darkgray;
-    padding: 20px 5px 5px 5px;
+    padding: 22px 5px 5px 5px;
     text-align: center;
     font-weight: bold;
 }
@@ -284,16 +284,21 @@ button {
 
 /* Changing content flex-direction to column */
 .content {
-    margin-top: 75px;
+    margin: 70px 10px 0 10px;
     flex-direction: column;
-    align-items: center;
-    background: orange;
-    width: 100%;
 }
 
 .features, .about, .services, .product, .vision {
     width: 100%;
+    margin: 18px 0;
+}
 
+.features {
+    margin-top: 50px;
+}
+
+.middle-img {
+    margin: 20px 0 15px 0;
 }
 
 }
