@@ -255,7 +255,9 @@ body{
 }
 
 /* Changing nav flex-direction to column */
+
 nav {
+    margin-top: 20px;
     flex-direction: column;
 }
 
@@ -269,6 +271,20 @@ nav a {
 
 nav a:last-child {
     border-bottom: 1px solid darkgrey;
+}
+
+.header-block{
+    padding: 35px 0 0 0;
+}
+
+button {
+    width: 160px;
+    margin-top: 5px;
+    height: 35px;
+}
+
+.content {
+    margin-top: 75px;
 }
 }
 }
