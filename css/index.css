@@ -248,6 +248,24 @@ nav {
     justify-content: center;
 }
 
+.services-intro-text {
+	width: 100%;
+	margin: 40px 0 15px 0;
+}
+
+.service-items {
+	width: 45%;
+	height: 350px;
+}
+
+.conclusion-text {
+	padding-right: 30px;
+}
+
+.services-info-img {
+	width: 55%;
+}
+
 /* Mobile view at 500px goes here; the page is widened with zero body margin */
 @media (max-width: 500px){
 body{
