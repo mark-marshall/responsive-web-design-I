@@ -256,7 +256,7 @@ nav {
 
 .service-items {
 	width: 45%;
-	height: 350px;
+	height: 400px;
 }
 
 .conclusion-text {
@@ -335,8 +335,25 @@ button {
 
 .service-items {
 	width: 100%;
-	margin: 10px;
-	height: 250px;
+	margin: 0 0 20px 0;
+	height: 300px;
+}
+
+.service-items:last-child {
+	margin-bottom: 50px;
+}
+
+.services-info-img {
+	display: none;
+}
+
+.conclusion {
+	padding-top: 35px;
+}
+
+.conclusion-text {
+	width: 100%;
+	padding: 20px;
 }
 
 footer p{
